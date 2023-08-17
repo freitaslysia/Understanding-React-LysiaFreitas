@@ -37,6 +37,7 @@ git config --global user.email "seuemail@exemplo.com"
 <ul>
 <li> Navegue para a pasta do seu projeto no terminal.
 <li> Execute o comando:
+</ul>
 
 ```
 git init
@@ -44,31 +45,32 @@ git init
 
 Isso vai tornar a sua pasta em um repositório Git.
 
-</ul>
 
 <strong>Passo 4: Adicionando e Registrando Alterações</strong>
 
 <ul>
 <li> Crie ou modifique arquivos no seu projeto;
 <li> Use o comando para verificar o status dos arquivos:
+</ul>
 
 ```
 git status
 ```
-
+<ul>
 <li> Adicione as mudanças para prepará-las para o commit:
+</ul>
 
 ```
 git add . (ou git add arquivo)
 ```
-
+<ul>
 <li> Faça o Commit das alterações com uma mensagem de texto explicativo:
+</ul>
 
 ```
 git commit -m "Mensagem curta de alteração"
 ```
 
-</ul>
 
 ---
 
@@ -100,12 +102,12 @@ git remote add origin URL-do-repositório
 <ul>
 <li>Faça commits locais conforme o "Passo 4".
 <li>Use o comando para enviar as alterações para o GitHub:
+</ul>
 
 ```
 git push origin nome-da-branch
 ```
 
-</ul>
 
 <strong>Passo 8: Colaborando no GitHub</strong>
 
