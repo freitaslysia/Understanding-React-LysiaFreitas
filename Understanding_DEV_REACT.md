@@ -19,7 +19,7 @@ O GitHub é uma plataforma online que você cria e "guarda" os seus repositório
 <strong>Passo 1: Instalação do Git</strong>
 
 <ul>
-<li> Baixe e instale o Git no seu computador. Entre no link do site oficial do Git <a>https://git-scm.com/</a> e siga as instruções para sua plataforma.
+<li> Baixe e instale o Git no seu computador. Entre no link do site oficial do Git <a href="https://git-scm.com/" >https://git-scm.com/</a> e siga as instruções para sua plataforma.
 </li></ul>
 
 <strong>Passo 2: Configuração Inicial</strong>
@@ -79,7 +79,7 @@ git commit -m "Mensagem curta de alteração"
 <strong>Passo 5: Criando um Repositório no GitHub</strong>
 
 <ul>
-<li> Acesse o GitHub <a>https://github.com/</a> e faça login ou crie uma conta.
+<li> Acesse o GitHub <a href="https://github.com">https://github.com</a> e faça login ou crie uma conta.
 <li> Clique no botão "+", no canto superior direito, e escolha "New Repository".
 <li> Dê um nome ao repositório, adicione uma descrição e escolha as configurações desejadas.
 <li> Clique em "Create repository".
