@@ -2,11 +2,11 @@
 
 ### O que é Git?
 
-Git é um sistema de controle de versão, que permite que você acompanhe e gerencie as mudanças feitas em arquivos ao longo do tempo. Ele é usado para colaboração, rastreamento de histórico e garantia de que várias pessoas possam trabalhar em um projeto sem conflitos.
+Git é um sistema de controle de versão (repositório local, ou seja, é na sua máquina), que permite que você acompanhe e gerencie as mudanças feitas em arquivos ao longo do tempo. Ele é usado para colaboração, rastreamento de histórico e garantia de que várias pessoas possam trabalhar em um projeto sem conflitos.
 
 ### O que é GitHub?
 
-O GitHub é uma plataforma online que você cria e "guarda" os seus repositórios, podendo hospedar os projetos, colaborador com open-sources, seguir outros programadores e interagir com código de terceiros.
+O GitHub é uma plataforma online (repositório remoto)que você cria e "guarda" os seus repositórios, podendo hospedar os projetos, colaborador com open-sources, seguir outros programadores e interagir com código de terceiros.
 
 ---
 
@@ -19,7 +19,7 @@ O GitHub é uma plataforma online que você cria e "guarda" os seus repositório
 <strong>Passo 1: Instalação do Git</strong>
 
 <ul>
-<li> Baixe e instale o Git no seu computador. Entre no link do site oficial do Git <a href="https://git-scm.com/" >https://git-scm.com/</a> e siga as instruções para sua plataforma.
+<li> Baixe e instale o Git no seu computador. Entre no link do site oficial do Git <a href="https://git-scm.com/" >https://git-scm.com/</a> e siga as instruções de acordo com o seu sistema operacional (Linux, Windows, Mac).
 </li></ul>
 
 <strong>Passo 2: Configuração Inicial</strong>
@@ -35,7 +35,7 @@ git config --global user.email "seuemail@exemplo.com"
 <strong>Passo 3: Iniciando um Repositório</strong>
 
 <ul>
-<li> Navegue para a pasta do seu projeto no terminal.
+<li> Entre na pasta do seu projeto no terminal.
 <li> Execute o comando:
 </ul>
 
@@ -45,24 +45,26 @@ git init
 
 Isso vai tornar a sua pasta em um repositório Git.
 
-
 <strong>Passo 4: Adicionando e Registrando Alterações</strong>
 
 <ul>
 <li> Crie ou modifique arquivos no seu projeto;
-<li> Use o comando para verificar o status dos arquivos:
+<li> Use o comando para verificar o status dos arquivos (se foi feito alguma alteração, se está tudo certo, se precisa commitar):
 </ul>
 
 ```
 git status
 ```
+
 <ul>
 <li> Adicione as mudanças para prepará-las para o commit:
+
 </ul>
 
 ```
 git add . (ou git add arquivo)
 ```
+
 <ul>
 <li> Faça o Commit das alterações com uma mensagem de texto explicativo:
 </ul>
@@ -71,6 +73,7 @@ git add . (ou git add arquivo)
 git commit -m "Mensagem curta de alteração"
 ```
 
+<em>obs</em>: o commit é o ato de enviar e guardar dados ou códigos para armazenamento no seu repositório.
 
 ---
 
@@ -108,6 +111,7 @@ git remote add origin URL-do-repositório
 git push origin nome-da-branch
 ```
 
+E está pronto! Agora é entrar no seu repositório do GitHub e atualizar a página. Lá você vai acompanhar se as mudanças foram armazenadas :D
 
 <strong>Passo 8: Colaborando no GitHub</strong>
 
@@ -115,3 +119,4 @@ git push origin nome-da-branch
 <li>Convite colaboradores para o repositório no GitHub.
 <li>Eles podem clonar o repositório para seus computadores, fazer mudanças e enviar pull requests.
 <li>Você pode revisar as mudanças e, se estiverem boas, mesclá-las ao seu repositório.
+</ul>
